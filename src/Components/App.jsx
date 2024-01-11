@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "../Components/App.css";
 import Description from "./Description";
 import Options from "./Options";
-import Feedback from "./Feedback";
+import Statistics from "./Statistics";
 import Notification from "./Notification";
 import Button from "./Button";
 import SmileyComponent from "./SmileyComponent";
@@ -63,7 +63,7 @@ const App = () => {
         )}
       </Options>
       {totalFeedback ? (
-        <Feedback
+        <Statistics  
           good={good}
           neutral={neutral}
           bad={bad}
