@@ -30,11 +30,10 @@ const App = () => {
 
   const feedbackKeys = Object.keys(feedback);
 
-  const handleButtonClick = (e) => {
-    const key = e.target.name;
+  const handleButtonClick = (key) => {
     setFeedback({
       ...feedback,
-      [key]: feedback[key] + 1,
+      [key]: feedback[key] + 1
     });
   };
 

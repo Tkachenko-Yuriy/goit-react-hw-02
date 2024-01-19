@@ -7,7 +7,7 @@ export default function Options({ buttons, onClick, children }) {
       {buttons.map((button, idx) => {
         return (
           <li className={css.item} key={idx}>
-            <Button variant={button} name={button} onClick={onClick} />
+            <Button variant={button} name={button} onClick={() => onClick(button)} />
           </li>
         );
       })}
