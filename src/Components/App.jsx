@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import "../Components/App.css";
 import Description from "./Description";
-import Options from "./Options";
-import Statistics from "./Statistics";
+import Options from "./Options/Options";
+import Statistics from "./Statistics/Statistics";
 import Notification from "./Notification";
-import Button from "./Button";
+import Button from "./Button/Button";
 import SmileyComponent from "./SmileyComponent";
 
 // ...
@@ -58,7 +58,7 @@ const App = () => {
       </Description>
       <Options buttons={feedbackKeys} onClick={handleButtonClick}>
         {totalFeedback > 0 && (
-          <Button name="reset" onClick={handleResetFeedback} />
+          <Button variant="reset" name="reset"onClick={handleResetFeedback} />
         )}
       </Options>
       {totalFeedback ? (

@@ -5,7 +5,7 @@ export default function SmileyComponent({ moodNumber }) {
       <p
         style={{
           margin: 0,
-          fontSize: "50px",
+          fontSize: "80px",
           pointerEvents: "none",
         }}
       >

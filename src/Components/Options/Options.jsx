@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../Button/Button";
 import css from "./Options.module.css";
 
 export default function Options({ buttons, onClick, children }) {
