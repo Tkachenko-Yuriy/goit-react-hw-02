@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import "../Components/App.css";
-import Description from "./Description";
+import Description from "./Description/Description";
 import Options from "./Options/Options";
 import Statistics from "./Statistics/Statistics";
-import Notification from "./Notification";
+import Notification from "./Notification/Notification";
 import Button from "./Button/Button";
-import SmileyComponent from "./SmileyComponent";
+import SmileyComponent from "./SmileyComponent/SmileyComponent";
 
 // ...
 

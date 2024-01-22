@@ -1,4 +1,4 @@
-import getSmiley from "./utils/getSmiley";
+import getSmiley from "../utils/getSmiley";
 export default function SmileyComponent({ moodNumber }) {
   return (
     <>
